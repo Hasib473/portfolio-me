@@ -68,20 +68,23 @@ ul{
     border: none;
 }
 .heading-image{
-    width: 584px;
-    height: 676px;
+    width: auto;
+    height: auto;
     margin-right: 20px;
+    object-fit: cover;
 }
 .information-h4{
     font-size: 45px;
     font-weight: 600;
     color: #474747;
+    
 }
 .information-h2{
     font-size: 85px;
     font-weight: bold;
     color:#181818;
 }
+   
 .information-p{
     font-size: 18px;
     font-weight:400;
@@ -100,4 +103,8 @@ ul{
     text-align: center;
     margin-left: 25px;
 }
-    
+.head-img{
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
