@@ -4,7 +4,7 @@
 .logo{
     font-size: 45px;
     font-weight: 800;
-    margin-left: 100px;
+    margin-left: 150px;
 }
 .logo-span{
     font-size: 45px;
@@ -35,8 +35,8 @@ ul{
     
 }
 .btn{
-    width: 150px;
-    height: 64px;
+    width: auto;
+    height: auto;
     font-size: 20px;
     font-weight: 400;
     background-color: #FD6E0A;
@@ -54,3 +54,50 @@ ul{
     cursor: pointer;
     
 }
+.header-content{
+    display: flex;
+    justify-content: space-between;
+}
+.header-information{
+    width: auto;
+    height: auto;
+    border-style: solid;
+    margin: 150px;
+    padding: 20px;
+    line-height: 1;
+    border: none;
+}
+.heading-image{
+    width: 584px;
+    height: 676px;
+    margin-right: 20px;
+}
+.information-h4{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+.information-h2{
+    font-size: 85px;
+    font-weight: bold;
+    color:#181818;
+}
+.information-p{
+    font-size: 18px;
+    font-weight:400;
+    color:#474747;
+}
+.btn-contact{
+    width: auto;
+    height: auto;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FD6E0A;
+    border-style: solid;
+    border-color: #FD6E0A;
+    border-radius: 5px; 
+    padding: 20px;
+    text-align: center;
+    margin-left: 25px;
+}
+    
